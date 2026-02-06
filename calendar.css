@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(to right, black, gold, green, red);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Calendar Container */
+.calendar-container {
+    padding: 20px;
+}
+
+/* Month Section */
+.month {
+    background: white;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-left: 6px solid green;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Events */
+.event {
+    margin-top: 15px;
+    padding: 10px;
+    border-left: 4px solid gold;
+}
+
+/* Footer */
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,172 @@
+/* ===== GENERAL PAGE DESIGN ===== */
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+background: linear-gradient(to bottom, #ffffff, #f5f5f5);
+}
+
+/* ===== HEADER ===== */
+
+header{
+background: linear-gradient(to right, #006400, #FFD700, #CE1126);
+color:white;
+padding:25px;
+text-align:center;
+border-bottom:5px solid black;
+}
+.logo{
+	width:1px;
+	height: auto;
+}
+header h1{
+margin:0;
+font-size:28px;
+}
+
+/* ===== NAVIGATION BAR ===== */
+
+nav{
+background:black;
+padding:12px;
+text-align:center;
+border-bottom:4px solid #FFD700;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:12px;
+font-weight:bold;
+font-size:15px;
+padding:8px 12px;
+border-radius:4px;
+transition:0.3s;
+}
+
+nav a:hover{
+background:#FFD700;
+color:black;
+}
+
+/* ===== MAIN CONTENT BOX ===== */
+
+.container{
+padding:25px;
+background:white;
+margin:25px;
+border-left:8px solid #006400;
+border-right:8px solid #CE1126;
+border-radius:8px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ===== PAGE TITLES ===== */
+
+.page-title{
+color:#006400;
+border-bottom:3px solid #FFD700;
+padding-bottom:6px;
+margin-bottom:20px;
+}
+
+/* ===== FORMS ===== */
+
+.form-group{
+margin-bottom:15px;
+}
+
+input, textarea, select{
+width:100%;
+padding:10px;
+border:2px solid #006400;
+border-radius:5px;
+}
+
+input:focus, textarea:focus{
+border-color:#CE1126;
+outline:none;
+}
+
+/* ===== BUTTONS ===== */
+
+button{
+background:#006400;
+color:white;
+padding:12px 20px;
+border:none;
+border-radius:5px;
+font-weight:bold;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+background:#FFD700;
+color:black;
+}
+
+/* ===== TABLE DESIGN ===== */
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:15px;
+}
+
+table th{
+background:#006400;
+color:white;
+}
+
+table, th, td{
+border:1px solid #ccc;
+padding:10px;
+}
+
+table tr:nth-child(even){
+background:#f9f9f9;
+}
+
+/* ===== GALLERY ===== */
+
+.gallery img{
+width:250px;
+margin:10px;
+border:4px solid #FFD700;
+border-radius:6px;
+transition:0.3s;
+}
+
+.gallery img:hover{
+border-color:#CE1126;
+transform:scale(1.05);
+}
+
+/* ===== FOOTER ===== */
+
+footer{
+background: linear-gradient(to right, black, #006400, #CE1126);
+color:white;
+text-align:center;
+padding:18px;
+margin-top:30px;
+border-top:5px solid #FFD700;
+}
+
+/* ===== ANNOUNCEMENT BOX ===== */
+
+.announcement{
+background:#FFD700;
+padding:15px;
+border-left:6px solid #CE1126;
+margin-bottom:15px;
+font-weight:bold;
+}
+
+/* ===== EVENTS LIST ===== */
+
+ul li{
+padding:6px;
+border-bottom:1px solid #ddd;
+}
